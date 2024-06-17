@@ -5,6 +5,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
+        'requests==2.31.0',
         'keyring==25.2.1'
     ],
     entry_points={
