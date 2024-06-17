@@ -1,6 +1,6 @@
 # picli
 
-A cli tool for sending ad-hoc requests to the PI Web API for Aveva/OSISoft's PI System. I made this for myself to use at work, maybe it'll be useful to someone else too.
+A cli tool for sending ad-hoc requests to the PI Web API for Aveva/OSISoft's PI System. The design of the API necessitates sending multiple requests before you can see any data, which is a little annoying for sending one-off requests. I made this for myself to use at work, maybe it'll be useful to someone else too.
 
 ```bash
 pip install .
