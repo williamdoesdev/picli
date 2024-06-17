@@ -51,3 +51,9 @@ Each of these commands will execute in sequence.
 | config set request_fields_to_save | Sets the fields to save between sessions. |
 | config set store_credentials | Sets whether to store credentials for future use. true/false |
 | config set auth_method | Sets the authentication method for the PI Web API. basic/windows |
+
+# Config
+
+Config files are in ~/.config/picli or ~/AppData/Local/picli
+
+A save file is also generated to store request parameters between sessions. This is in ~/.local/share/picli or ~/AppData/Local/picli
